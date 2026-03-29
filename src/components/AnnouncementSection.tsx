@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Plus, X, Megaphone, Clock, User, Trash2 } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
-import { getAnnouncements, addAnnouncement, deleteAnnouncement, type Announcement } from '../lib/store';
+import { getAnnouncements, addAnnouncement, deleteAnnouncement, type Announcement } from '../store';
 
 function formatDate(dateStr: string): string {
   const d = new Date(dateStr);
