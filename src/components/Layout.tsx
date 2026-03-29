@@ -21,7 +21,7 @@ const iconMap: Record<string, React.ReactNode> = {
   Network: <Network size={20} />,
 };
 
-import { TECH_CATEGORIES } from '../lib/store';
+import { TECH_CATEGORIES } from '../store';
 
 export default function Layout() {
   const { user, logout } = useAuth();
