@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { getNews, type NewsItem } from '../lib/store';
+import { getNews, type NewsItem } from '../store';
 import { Clock, User, TrendingUp, Newspaper } from 'lucide-react';
 
 function formatDate(dateStr: string): string {
