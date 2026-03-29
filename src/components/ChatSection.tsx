@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { Send, Reply, X, CornerDownLeft } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
-import { getMessages, addMessage, type ChatMessage } from '../lib/store';
+import { getMessages, addMessage, type ChatMessage } from '../store';
 
 function timeAgo(dateStr: string): string {
   const now = Date.now();
