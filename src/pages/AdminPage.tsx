@@ -5,7 +5,7 @@ import {
   getAnnouncements, deleteAnnouncement, deleteUser,
   type User, type NewsItem, type Announcement,
   loginUser
-} from '../lib/store';
+} from '../store';
 import {
   Shield, Users, Newspaper, Megaphone, Trash2, Plus, X,
   Mail, Lock, Eye, EyeOff, LogIn, AlertTriangle,
