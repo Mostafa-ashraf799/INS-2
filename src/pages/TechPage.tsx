@@ -1,5 +1,5 @@
 import { useParams } from 'react-router-dom';
-import { TECH_CATEGORIES } from '../lib/store';
+import { TECH_CATEGORIES } from '../store';
 import ChatSection from '../components/ChatSection';
 import AnnouncementSection from '../components/AnnouncementSection';
 import {
